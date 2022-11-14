@@ -1,0 +1,52 @@
+.form {
+  margin-top: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 35rem;
+  height: 3rem;
+  border: 1px solid #a3a3a3;
+  font-family: "Red Rose", cursive;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #b8b8b8;
+  border-radius: 10px;
+
+  ::placeholder {
+    padding-left: 1rem;
+  }
+  button {
+    background-color: #a02279;
+    color: white;
+    justify-content: flex-end;
+    font-family: "Red Rose", cursive;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #a02279;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .form {
+    width: 100%;
+    align-items: center;
+    line-height: 18px;
+    color: #b8b8b8;
+    border-radius: 10px;
+
+    ::placeholder {
+      padding-left: 1rem;
+    }
+    button {
+      width: 10rem;
+    }
+  }
+}

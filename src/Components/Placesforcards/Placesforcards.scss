@@ -1,0 +1,136 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 2rem;
+  .heading {
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    .locate {
+      border: 1px solid #b4b4b4;
+      color: #333333;
+      padding: 0 10px;
+      border-radius: 5px;
+      width: fit-content;
+      height: 2rem;
+    }
+    p {
+      font-family: "Red Rose";
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      color: #434343;
+    }
+  }
+  .place1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    width: 90%;
+
+    img {
+      width: 15rem;
+    }
+
+    .Places11 {
+      border: 1px solid #d7d7d7;
+      border-radius: 10px;
+      gap: 1rem;
+
+      margin: auto;
+      margin-bottom: 1rem;
+      width: 16rem;
+      padding: 1rem;
+      .lower,
+      .upper {
+        justify-content: space-between;
+        font-family: "Red Rose", cursive;
+        font-size: 11px;
+        line-height: 13px;
+        display: block;
+      }
+
+      .lower {
+        text-align: left;
+        .star {
+          width: 1rem;
+        }
+        .name {
+          font-weight: 400;
+          letter-spacing: 0em;
+        }
+      }
+
+      .upper {
+        text-align: right;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .container {
+    .wrapper {
+      height: 10rem;
+      overflow-y: hidden;
+      width: 100%;
+    }
+    .heading {
+      padding-bottom: 8rem;
+      gap: 1rem;
+      justify-content: space-between;
+      scroll-behavior: smooth;
+
+      p {
+        width: 7rem;
+      }
+
+      .locate {
+        p {
+          width: 7rem;
+        }
+      }
+    }
+    .place1 {
+      display: grid;
+      grid-template-columns: auto;
+      margin: auto;
+      width: 90%;
+    }
+  }
+}
+
+@media (min-width: 561px) and (max-width: 1040px) {
+  .container {
+    .wrapper {
+      height: 10rem;
+      overflow-y: hidden;
+      width: 100%;
+    }
+    .heading {
+      padding-bottom: 8rem;
+      gap: 1rem;
+      justify-content: space-between;
+      scroll-behavior: smooth;
+      p {
+        width: 7rem;
+      }
+
+      .locate {
+        p {
+          width: 7rem;
+        }
+      }
+    }
+    .place1 {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: auto;
+      width: 90%;
+    }
+  }
+}

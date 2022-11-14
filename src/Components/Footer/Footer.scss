@@ -1,0 +1,109 @@
+.footer1 {
+  background-color: #1d1d1e;
+  height: 40vh;
+  display: block;
+  color: white;
+  padding: 2rem 5rem;
+
+  .footer {
+    color: white;
+    display: grid;
+    text-align: left;
+    grid-template-columns: auto auto auto auto;
+    font-family: "Red Rose";
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+    .logo {
+      text-align: left;
+      justify-content: left;
+      .copy1 {
+        align-items: center;
+        .copy {
+          width: 1rem;
+          height: 1rem;
+        }
+      }
+
+      .logo1 {
+        padding-left: 0;
+        padding-bottom: 2rem;
+        padding-right: 120px;
+        padding-top: 2rem;
+        margin-left: 0;
+        img {
+          width: 1rem;
+        }
+      }
+    }
+    h4 {
+      font-family: "Red Rose";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    p {
+      font-family: "Red Rose";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer1 {
+    height: fit-content;
+    .footer {
+      display: grid;
+      grid-template-columns: auto;
+      margin: auto;
+      .logo {
+        .logo1 {
+          padding-right: 0px;
+        }
+        .copy1{
+          text-align: center;
+align-items: center;
+justify-content: center;
+        }
+      }
+      .contact {
+        margin-bottom: 2rem;
+        text-align: center;
+        h4 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1040px) {
+  .footer1 {
+    height: fit-content;
+
+    .footer {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: auto;
+      .logo {
+        .logo1 {
+          padding-right: 0px;
+        }
+      }
+
+      .contact {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

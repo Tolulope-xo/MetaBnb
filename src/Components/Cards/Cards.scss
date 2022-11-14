@@ -1,0 +1,62 @@
+.adventure {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  width: 90%;
+
+  img {
+    width: 15rem;
+  }
+
+  .adventure1 {
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    gap: 1rem;
+
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 16rem;
+    padding: 1rem;
+    .sub,
+    .sub1 {
+      justify-content: space-between;
+      font-family: "Red Rose", cursive;
+      font-size: 11px;
+      line-height: 13px;
+      display: block;
+    }
+
+    .sub {
+      text-align: left;
+      .star {
+        width: 1rem;
+      }
+      .name {
+        font-weight: 400;
+        letter-spacing: 0em;
+      }
+    }
+
+    .sub1 {
+      text-align: right;
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .adventure {
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    width: 90%;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 1040px) {
+  .adventure {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 90%;
+  }
+}
