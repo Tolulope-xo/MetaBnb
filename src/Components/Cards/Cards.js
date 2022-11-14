@@ -9,7 +9,7 @@ const Cards = () => {
       {Adventures.map((adventure, index) => {
         return (
           <div className="adventure1" key={adventure.id}>
-            <img src={adventure.src} alt="image"/>
+            <img src={adventure.src} alt="adventure"/>
             <div className="flex justify-between">
             <div className="sub block">
             <h2 className="name m-1">{adventure.name}</h2>
