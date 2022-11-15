@@ -3,7 +3,7 @@ import './Form.scss'
 const Form = () => {
   return (
     <form className="form">
-      <input type="text" placeholder="Search for location" />
+      <input className="input" type="text" placeholder="Search for location" />
       <button className="search">Search</button>
     </form>
   );
