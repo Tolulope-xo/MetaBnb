@@ -28,7 +28,7 @@ function Navbar() {
             Home
           </Link>
           <Link onClick={closeNavbar} to="/placestostay" id="Places_to_Stay">
-            Places to Stay
+            Places to stay
           </Link>
           <Link onClick={closeNavbar} to="/nfts" id="NFTs">
             NFTs
